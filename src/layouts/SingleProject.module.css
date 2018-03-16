@@ -1,5 +1,21 @@
 .singleProjectContainer {
-  padding-left: 1rem; 
+  margin-top: 2rem;
+  padding-left: 1rem;
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-items: center;
+}
+
+.techStack {
+  font-family: monospace;
+  margin-left: 1rem;
+}
+
+.projectDescripion {
+  font-size: 1rem;
+}
+
+.img {
+  height: 100%;
 }
