@@ -4,7 +4,9 @@ import SingleProject from './SingleProject';
 const Projects = () => (<div style={{
     display: `flex`,
     flexDirection: `column`,
-    borderLeft: `10px solid rgb(200, 69, 14)`
+    borderLeft: `10px solid rgb(200, 69, 14)`,
+    marginBottom: `2rem`
+
   }}>
   <h3>Projects</h3>
   <SingleProject
