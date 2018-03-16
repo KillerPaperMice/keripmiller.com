@@ -5,4 +5,7 @@ node_modules
 # Build directory
 public/
 .DS_Store
+.idea
 yarn-error.log
+
+package-lock.json
