@@ -13,6 +13,8 @@ const Header = () => (
         margin: '0 auto',
         maxWidth: 960,
         padding: '1.45rem 1.0875rem',
+        display: `flex`,
+        justifyContent: `space-between`,
       }}
     >
       <h1 style={{ margin: 0 }}>
@@ -30,12 +32,29 @@ const Header = () => (
           {`Keri P. Miller`}
         </Link>
       </h1>
-      <div className='socialMediaContainer'>
-        {/*font awesome is not working*/}
-        <FontAwesome name='rocket'/>
-        <span>Linked In</span>
-        <span>E-mail</span>
-        <span>Resume</span>
+      <div className='socialMediaContainer' style={{
+          paddingTop:  `1.5em`,
+        }}>
+        <FontAwesome
+          name='linkedin'
+          size='2x'
+          style={{width:`1em`,padding:`0.2em`}}
+          />
+        <FontAwesome
+          name='github-alt'
+          size='2x'
+          style={{width:`1em`,padding:`0.2em`}}
+          />
+        <FontAwesome
+          name='file'
+          size='2x'
+          style={{width:`1em`,padding:`0.2em`}}
+          />
+        <FontAwesome
+          name='at'
+          size='2x'
+          style={{width:`1em`,padding:`0.2em`}}
+          />
       </div>
       <hr/>
     </div>
