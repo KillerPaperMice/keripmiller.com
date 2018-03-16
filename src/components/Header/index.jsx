@@ -24,9 +24,10 @@ const Header = () => (
             fontSize: '3.5rem',
             fontWeight: `normal`,
             fontFamily: `Monoton`,
+            wordSpacing: '1rem',
           }}
         >
-          Keri P. Miller
+          {`Keri P. Miller`}
         </Link>
       </h1>
       <div className='socialMediaContainer'>
