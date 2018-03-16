@@ -1,8 +1,10 @@
 # Keri P. Miller
-## Full-Stack Developer
-### e-mail: [miller.keripatricia@gmail.com](mailTo:miller.keripatricia@gmail.com)
+### Full-Stack Developer
 
-### github: [github.com/keripmiller](github.com/keripmiller)
+
+#### e-mail 📧 : [miller.keripatricia@gmail.com](mailTo:miller.keripatricia@gmail.com)
+
+#### github ‍💻 : [github.com/keripmiller](github.com/keripmiller)
 
 ---
 made with [gatsby.js](gatsbyjs.org)

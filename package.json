@@ -1,6 +1,6 @@
 {
-  "name": "keri can code",
-  "description": "how do you change the title?",
+  "name": "keripmiller",
+  "description": "portfolio using gatsby.js",
   "version": "1.0.0",
   "author": "Keri P Miller <miller.keripatricia@gmail.com>",
   "dependencies": {
@@ -14,7 +14,9 @@
     "typography-theme-alton": "^0.15.10"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "portfolio",
+    "keripmiller"
   ],
   "license": "MIT",
   "main": "n/a",
