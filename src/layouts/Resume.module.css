@@ -1,0 +1,29 @@
+.resumeContainer {
+  border-left: 10px solid rgb(64, 41, 168);
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.resume{
+  padding-left: 1rem;
+}
+
+.resumeHeader {
+  font-weight: lighter;
+}
+
+.resumeSection {
+  font-size: .99rem;
+  padding-left: 1rem;
+}
+
+.resumeSection strong {
+  display: block;
+}
+
+.education {
+  font-weight: bolder;
+}
+
+button {}
