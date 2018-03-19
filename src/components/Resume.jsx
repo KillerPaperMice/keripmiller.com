@@ -18,7 +18,11 @@ const Resume = () => (<div className={styles.resumeContainer}>
     <h3 className={styles.resumeHeader}>Projects and Accomplishments</h3>
     <div className={styles.resumeSection}>
       <div className={styles.project}>
-        The Final Meltdown | Developer | Jan 2018 - present | GITHUB: thefinalmeltdown.github.io/theFinalMeltdown/ An open source VR app that uses A-frame to create an symbolic representation of the effects of climate change on the planet.
+        <p>
+          <strong>The Final Meltdown</strong>Developer | Jan 2018 - present | GITHUB: thefinalmeltdown.github.io/theFinalMeltdown/
+          <br/>
+          An open source VR app that uses A-frame to create an symbolic representation of the effects of climate change on the planet.
+        </p>
         <ul>
           <li>Winner of the Red Hat Category Award Best Open Source Hack at SheHacks Boston 2018</li>
           <li>Used A-Frame animations to create shrinking iceberg animation
@@ -29,7 +33,9 @@ const Resume = () => (<div className={styles.resumeContainer}>
 
       </div>
       <div className={styles.project}>
-        Sound&&Vision | Solo Developer | Nov 2017 - Present | GITHUB: github.com/keripmiller/soundandvision An audio chat app that renders drawings as you speak.
+        <p>
+          <strong>Sound&&Vision</strong>Solo Developer | Nov 2017 - Present | GITHUB: github.com/keripmiller/soundandvision
+          <br/>An audio chat app that renders drawings as you speak.</p>
         <ul>
           <li>Practiced using the HTML canvas element to make drawings</li>
           <li>Collected user mic data to render shapes with P5.js and the window Navigator
@@ -38,7 +44,10 @@ const Resume = () => (<div className={styles.resumeContainer}>
         </ul>
       </div>
       <div className={styles.project}>
-        Whiskr | Developer | Nov 2017 - Present | GITHUB: whiskapp.herokuapp.com A progressive web app that connects users to local shelter animals in a Tinder like format.
+        <p>
+          <strong>Whiskr</strong>Developer | Nov 2017 - Present | GITHUB: whiskapp.herokuapp.com
+          <br/>
+          A progressive web app that connects users to local shelter animals in a Tinder like format.</p>
         <ul>
           <li>Integrated the petfinder api to fetch real pet and shelter data</li>
           <li>
@@ -50,7 +59,8 @@ const Resume = () => (<div className={styles.resumeContainer}>
     <h3 className={styles.resumeHeader}>Work Experience</h3>
     <div className={styles.resumeSection}>
       <div className={styles.jobs}>
-        J. Pocker | Accounts Payable Clerk Apr 2013-Aug 2017 | New York, NY Performed the accounts payable duties for a small family-owned business with 5 store locations through NY and CT.
+        <strong>J. Pocker</strong>
+        | Accounts Payable Clerk Apr 2013-Aug 2017 | New York, NY Performed the accounts payable duties for a small family-owned business with 5 store locations through NY and CT.
         <ul>
           <li>Efficiently processed 100+ vendor invoices weekly</li>
           <li>Obtained proper information and data regarding invoice payments for tracking purposes</li>
@@ -60,7 +70,9 @@ const Resume = () => (<div className={styles.resumeContainer}>
         </ul>
       </div>
       <div className={styles.jobs}>
-        Business Alternatives Inc. | eBay Store Manager Jun 2011-Apr 2013 | Bronx, NY Developed a service to curate and sell items for customers at a small business while I was a Data Entry Clerk.
+        <strong>Business Alternatives Inc.
+        </strong>
+        | eBay Store Manager Jun 2011-Apr 2013 | Bronx, NY Developed a service to curate and sell items for customers at a small business while I was a Data Entry Clerk.
 
         <ul>
           <li>Researched customer's inventory to sell and valued them accordingly</li>
@@ -77,8 +89,7 @@ const Resume = () => (<div className={styles.resumeContainer}>
     <p className={styles.education}>SUNY at Purchase College | B.A in Art History | Dec. 2012
     </p>
   </div>
-
-  <button>download PDF</button>
+    <button className={styles.resumeButton}>download PDF</button>
 </div>)
 
 export default Resume;
