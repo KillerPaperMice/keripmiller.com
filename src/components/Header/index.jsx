@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import resumePdf from '../../utils/assets/Miller-TechResume2018.pdf'
 import FontAwesome from 'react-fontawesome';
 
 const Header = () => (<div style={{
@@ -13,42 +13,39 @@ const Header = () => (<div style={{
       justifyContent: `space-between`
     }}>
     <h1 style={{
-        margin: 0
+        margin: 0,
+        color: 'tomato',
+        textDecoration: 'none',
+        fontSize: '3.5rem',
+        fontWeight: `normal`,
+        fontFamily: `Monoton`,
+        wordSpacing: '1rem'
       }}>
-      <Link to="/" style={{
-          color: 'tomato',
-          textDecoration: 'none',
-          fontSize: '3.5rem',
-          fontWeight: `normal`,
-          fontFamily: `Monoton`,
-          wordSpacing: '1rem'
-        }}>
-        {`Keri P. Miller`}
-      </Link>
+      {`Keri P. Miller`}
     </h1>
     <div className='socialMediaContainer' style={{
         paddingTop: `1.5em`
       }}>
-      <a href='https://linkedin.com/in/keripmiller' target='_blank'>
+      <a href='https://linkedin.com/in/keripmiller' target='_blank' title='linkedIn'>
         <FontAwesome name='linkedin' size='2x' style={{
             width: `1em`,
             padding: `0.2em`
           }}/>
       </a>
-      <a href='https://github.com/keripmiller' target='_blank'>
+      <a href='https://github.com/keripmiller' target='_blank' title='github'>
         <FontAwesome name='github-alt' size='2x' style={{
             width: `1em`,
             padding: `0.2em`
           }}/>
       </a>
 
-      <a href='#resume'>
+      <a href={resumePdf} target='_blank' title='resume'>
         <FontAwesome name='file' size='2x' style={{
             width: `1em`,
             padding: `0.2em`
           }}/>
       </a>
-      <a href='mailTo: miller.keripatricia@gmail.com'>
+      <a href='mailTo: miller.keripatricia@gmail.com' title='e-mail'>
         <FontAwesome name='at' size='2x' style={{
             width: `1em`,
             padding: `0.2em`

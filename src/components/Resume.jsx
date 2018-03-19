@@ -1,4 +1,5 @@
 import React from 'react';
+import resumePdf from '../utils/assets/Miller-TechResume2018.pdf';
 import styles from '../layouts/Resume.module.css';
 
 const Resume = () => (<div className={styles.resumeContainer}>
@@ -89,7 +90,10 @@ const Resume = () => (<div className={styles.resumeContainer}>
     <p className={styles.education}>SUNY at Purchase College | B.A in Art History | Dec. 2012
     </p>
   </div>
-    <button className={styles.resumeButton}>download PDF</button>
+  <a href={resumePdf} target='_blank' className={styles.resumeButton}>
+    <button >download PDF</button>
+  </a>
+
 </div>)
 
 export default Resume;
