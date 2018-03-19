@@ -12,9 +12,9 @@ class SingleProject extends Component {
     console.log(this.props)
     return (<div className={styles.singleProjectContainer}>
       <img className={styles.img} src={assets} alt='Whiskr App'/>
-      <h4>{this.props.title}</h4>
+      <p className={styles.proTitle}>{this.props.title}</p>
       <p className={styles.techStack}>Tech Stack: {this.props.tech}</p>
-      <p className={styles.projectDescripion}>{this.props.description}</p>
+      {/* <p className={styles.projectDescripion}>{this.props.description}</p>*/}
     </div>)
   }
 }

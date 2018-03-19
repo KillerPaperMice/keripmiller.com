@@ -1,12 +1,8 @@
-@font-face {
-    font-family: 'Monoton';
-    src: url(https://fonts.googleapis.com/css?family=Monoton);
-    font-weight:400;
-}
-
 .about {
   display: flex;
+  justify-content: center;
   align-items: flex-start;
+  flex-wrap: nowrap;
   border-left: 10px solid yellow;
   margin-bottom: 2rem;
 }
@@ -14,6 +10,13 @@
   padding-left: 1rem;
 }
 .profile {
-  margin-top: 20%;
+  float: right;
+  margin-top: 15%;
   border-bottom: 5px solid yellow;
+}
+
+@media (max-width:490px) {
+  .profile {
+    display: none;
+  }
 }

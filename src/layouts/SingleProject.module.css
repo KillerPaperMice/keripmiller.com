@@ -1,10 +1,17 @@
 .singleProjectContainer {
-  margin: 2rem 0 1.5rem 0;
+  margin: 1rem 0 1rem 0;
   padding-left: 1rem;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
+}
+
+.proTitle {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: 'Domine',serif;
+  flex-basis: 100%;
 }
 
 .techStack {
@@ -17,5 +24,5 @@
 }
 
 .img {
-  height: 100%;
+  width: 100%;
 }

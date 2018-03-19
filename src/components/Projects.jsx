@@ -16,15 +16,15 @@ const Projects = () => (<div style={{
     description={`Senior Capstone project. A Tinder-style pet adoption app that connects users with pets in shelters using Petfinder's API.`}/>
 
   <SingleProject
-    title={`Whiskr`}
-    projectLink= {`https://whiskrapp.herokuapp.com`}
-    tech={`React.js, Node.js, Express,js, Sass, Heroku`}
+    title={`The Final Meltdown`}
+    projectLink= {`https:thefinalmeltdown.github.io/theFinalMeltdown/`}
+    tech={`A-frame, VR, 3D, Open Source`}
     description={`Senior Capstone project. A Tinder-style pet adoption app that connects users with pets in shelters using Petfinder's API.`}/>
 
   <SingleProject
-    title={`Whiskr`}
-    projectLink= {`https://whiskrapp.herokuapp.com`}
-    tech={`React.js, Node.js, Express,js, Sass, Heroku`}
+    title={`CageMatch`}
+    projectLink= {`http://cage-match.herokuapp.com/`}
+    tech={`React.js, Node.js, Express,js, Sass, Heroku, React Notifications`}
     description={`Senior Capstone project. A Tinder-style pet adoption app that connects users with pets in shelters using Petfinder's API.`}/>
 </div>)
 
