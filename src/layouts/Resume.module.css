@@ -4,10 +4,9 @@
   justify-content: flex-start;
   flex-wrap: wrap;
   margin-bottom: 2rem;
-
 }
 
-.resume{
+.resume {
   padding-left: 1rem;
 }
 
@@ -16,7 +15,7 @@
 }
 
 .resumeSection {
-  font-size: .99rem;
+  font-size: 0.99rem;
   padding-left: 1rem;
   flex-basis: 100%;
 }
@@ -25,7 +24,7 @@
   display: block;
 }
 
-.project strong{
+.project strong {
   font-size: 1.2rem;
   font-family: serif;
   font-weight: 400;
@@ -50,10 +49,10 @@
   margin-right: auto; */
 }
 
-@media (max-width:490px) {
+@media (max-width: 490px) {
   .resumeContainer {
     width: 50%;
-    font-size: .5rem;
+    font-size: 0.5rem;
   }
   .resumeButton {
     font-size: 1rem;
