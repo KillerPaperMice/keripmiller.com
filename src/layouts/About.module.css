@@ -15,7 +15,7 @@
   border-bottom: 5px solid yellow;
 }
 
-@media (max-width:490px) {
+@media (max-width: 490px) {
   .profile {
     display: none;
   }
