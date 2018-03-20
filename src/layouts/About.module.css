@@ -11,6 +11,7 @@
 }
 .profile {
   float: right;
+  height:18rem;
   margin-top: 10%;
   border-bottom: 5px solid yellow;
 }
