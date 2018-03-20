@@ -5,13 +5,13 @@ import Helmet from 'react-helmet'
 import Header from '../components/Header'
 
 const TemplateWrapper = ({children, data}) => (<div>
-  <Helmet title="Keri P. Miller | Fullstack Developer" meta={[
+  <Helmet title="Keri P. Miller | Full Stack Developer" meta={[
       {
         name: 'description',
         content: 'Keri P. Miller\'s portfolio page'
       }, {
         name: 'keywords',
-        content: 'javascript developer, developer, fullstack, fullstack developer, web developer, nyc, new york, brooklyn, keri miller, keri p miller, porttfolio'
+        content: 'javascript developer, developer, fullstack, full stack, full stack developer, web developer, nyc, new york, brooklyn, keri miller, keri p miller, porttfolio'
       }
     ]}/>
 
