@@ -1,4 +1,6 @@
 import React from 'react';
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import faLink from '@fortawesome/fontawesome-free-solid/faLink';
 import resumePdf from '../utils/assets/Miller-TechResume2018.pdf';
 import styles from '../layouts/Resume.module.css';
 
@@ -20,7 +22,12 @@ const Resume = () => (<div className={styles.resumeContainer}>
     <div className={styles.resumeSection}>
       <div className={styles.project}>
         <p>
-          <strong>The Final Meltdown</strong>Developer | Jan 2018 - present | GITHUB: thefinalmeltdown.github.io/theFinalMeltdown/
+          <strong>The Final Meltdown</strong>Developer | Jan 2018 - present |
+          <FontAwesomeIcon icon={faLink}/>
+          :
+          <a href='https://thefinalmeltdown.github.io/theFinalMeltdown/' target='_blank'>
+            thefinalmeltdown.github.io/theFinalMeltdown/
+          </a>
           <br/>
           An open source VR app that uses A-frame to create an symbolic representation of the effects of climate change on the planet.
         </p>
@@ -35,7 +42,10 @@ const Resume = () => (<div className={styles.resumeContainer}>
       </div>
       <div className={styles.project}>
         <p>
-          <strong>Sound&&Vision</strong>Solo Developer | Nov 2017 - Present | GITHUB: github.com/keripmiller/soundandvision
+          <strong>Sound&&Vision</strong>Solo Developer | Nov 2017 - Present |
+          <FontAwesomeIcon icon={faLink}/>
+          :
+          <a href='https://github.com/keripmiller/soundandvision' target='_blank'>github.com/keripmiller/soundandvision</a>
           <br/>An audio chat app that renders drawings as you speak.</p>
         <ul>
           <li>Practiced using the HTML canvas element to make drawings</li>
@@ -46,7 +56,10 @@ const Resume = () => (<div className={styles.resumeContainer}>
       </div>
       <div className={styles.project}>
         <p>
-          <strong>Whiskr</strong>Developer | Nov 2017 - Present | GITHUB: whiskapp.herokuapp.com
+          <strong>Whiskr</strong>Developer | Nov 2017 - Present |
+          <FontAwesomeIcon icon={faLink}/>
+          :
+          <a href='https://whiskapp.herokuapp.com' target='_blank'>whiskapp.herokuapp.com</a>
           <br/>
           A progressive web app that connects users to local shelter animals in a Tinder like format.</p>
         <ul>
