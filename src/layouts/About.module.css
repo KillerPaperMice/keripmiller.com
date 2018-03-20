@@ -1,6 +1,6 @@
 .about {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
   flex-wrap: nowrap;
   border-left: 10px solid yellow;
@@ -11,7 +11,7 @@
 }
 .profile {
   float: right;
-  margin-top: 15%;
+  margin-top: 10%;
   border-bottom: 5px solid yellow;
 }
 

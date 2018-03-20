@@ -1,12 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Keri Can Code`,
+    title: `Keri Can Code`
   },
-  plugins: [`gatsby-plugin-react-helmet`, {
+  plugins: [
+    `gatsby-plugin-react-helmet`,
+    {
       resolve: `gatsby-plugin-typography`,
       options: {
-        pathToConfigModule: `src/utils/typography.js`,
-      },
+        pathToConfigModule: `src/utils/typography.js`
+      }
     },
     {
       resolve: `gatsby-plugin-google-fonts`,
@@ -17,5 +19,5 @@ module.exports = {
         ]
       }
     }
-  ],
+  ]
 };
