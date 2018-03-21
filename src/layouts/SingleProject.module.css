@@ -54,7 +54,13 @@
 .projectDescripion {
   font-family: "Domine", serif;
   font-size: 1.5rem;
-  padding: 8rem 2rem;
+  padding: 15% 2rem;
   text-align: center;
   color:rgb(237, 232, 226);
+}
+
+@media (max-width: 490px) {
+  .overlay {
+    display: none;
+  }
 }
