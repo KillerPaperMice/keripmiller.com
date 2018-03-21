@@ -27,7 +27,7 @@ const Projects = () => (
     <SingleProject
       title={`The Final Meltdown`}
       img={finalMeltImg}
-      projectLink={`https:thefinalmeltdown.github.io/theFinalMeltdown/`}
+      projectLink={`https://thefinalmeltdown.github.io/theFinalMeltdown/`}
       tech={`A-frame, VR, 3D, Open Source`}
       description={`An open source VR app that uses A-frame to create an symbolic representation of the effects of climate change on the planet.`}
     />
@@ -35,7 +35,7 @@ const Projects = () => (
     <SingleProject
       title={`CageMatch`}
       img={cageImg}
-      projectLink={`http://cage-match.herokuapp.com/`}
+      projectLink={`https://cage-match.herokuapp.com/`}
       tech={`React.js, Node.js, Express,js, Sass, Heroku, React Notifications`}
       description={`An e-commerce site for purchasing Nicholas Cage roles.`}
     />
