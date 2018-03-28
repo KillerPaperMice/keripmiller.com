@@ -23,8 +23,12 @@ const Contact = () => (
         <button
           style={{
             width: `100%`,
-            whiteSpace: `nowrap`
+            whiteSpace: `nowrap`,
+            border: `1px solid black`,
+            borderRadius: `.5rem`,
+            backgroundColor: `white`
           }}
+          title='E-Mail'
         >
           Miller.KeriPatricia@gmail.com
         </button>
