@@ -11,12 +11,12 @@ const Resume = () => (
       <h3 className={styles.resumeHeader}>Technologies</h3>
       <div className={styles.resumeSection}>
         <p>
-          <strong>Proficient:</strong>
-          JavaScript, Express.js, Node.Js, React-Redux, Sequelize, PostgreSQL,
+          <strong>Strengths:</strong>
+          JavaScript, Express.js, React-Redux, Sequelize, SQL, RESTful APIs,
           Git, HTML, CSS
           <strong>Knowledgeable:</strong>
-          Promises, jQuery, Bootstrap, Sass, GatsbyJs, Linux, Virtual Machines,
-          Heroku
+          Node.Js, Promises, jQuery, Bootstrap, Sass, GatsbyJs, Linux, Virtual
+          Machines, Heroku
           <strong>Some Experience:</strong>
           Passport, OAuth, P5.js, Mocha, Chai, Python 3, GraphQL
         </p>
@@ -35,7 +35,7 @@ const Resume = () => (
               thefinalmeltdown.github.io/theFinalMeltdown
             </a>
             <br />
-            An open source VR app that uses A-frame to create an symbolic
+            An open source VR app that uses A-frame to create a symbolic
             representation of the effects of climate change on the planet.
           </p>
           <ul>
@@ -44,11 +44,11 @@ const Resume = () => (
               SheHacks Boston 2018
             </li>
             <li>
-              Used A-Frame animations to create shrinking iceberg animation
-            </li>
-            <li>
               Developed and designed project idea and outlined future goals for
               hackathon presentation
+            </li>
+            <li>
+              Used A-Frame animations to create shrinking iceberg animation
             </li>
           </ul>
         </div>
@@ -66,12 +66,15 @@ const Resume = () => (
             <br />An audio chat app that renders drawings as you speak.
           </p>
           <ul>
-            <li>Practiced using the HTML canvas element to make drawings</li>
             <li>
               Collected user mic data to render shapes with P5.js and the window
               Navigator
             </li>
-            <li>Used socket.IO to send user mic data to partners</li>
+            <li>Used the HTML canvas element to make interactive drawings</li>
+            <li>
+              Used socket.IO to create a realtime connection and send user mic
+              data to partners
+            </li>
           </ul>
         </div>
         <div className={styles.project}>
@@ -87,11 +90,11 @@ const Resume = () => (
             in a Tinder like format.
           </p>
           <ul>
+            <li>Led development for Match Logic and Geolocation for app</li>
             <li>
               Integrated the petfinder api to fetch real pet and shelter data
             </li>
             <li>Uses React-Redux, Express and Sequelize</li>
-            <li>Led development for Match Logic and Geolocation for app</li>
           </ul>
         </div>
       </div>
@@ -105,12 +108,12 @@ const Resume = () => (
           <ul>
             <li>Efficiently processed 100+ vendor invoices weekly</li>
             <li>
-              Obtained proper information and data regarding invoice payments
+              Obtained proper information and approval regarding invoice payments
               for tracking purposes
             </li>
             <li>
               Maintained the vendor database with accurate and current
-              information
+              information in MAS200
             </li>
             <li>Researched and resolved all payment problems for production</li>
             <li>
@@ -152,7 +155,7 @@ const Resume = () => (
       </p>
     </div>
     <a href={resumePdf} target="_blank" className={styles.resumeButton}>
-      <button>download PDF</button>
+      <button title='Download Resume'>download PDF</button>
     </a>
   </div>
 );
