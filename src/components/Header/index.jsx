@@ -1,20 +1,10 @@
 import React, { Component } from "react";
 import styles from "../../layouts/Header.module.css";
-import SocialLinks from "./SocialLinks";
 
 class Header extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      showContact: false
-    };
-  }
-
-  toggleContacts() {
-    alert("clicked");
-    // this.state.showContact
-    // ? this.setState({ showContact: true })
-    // : this.setState({ showContact: false });
+    this.state = {};
   }
 
   render() {
@@ -27,12 +17,7 @@ class Header extends Component {
             <a href="#">About</a>
             <a href="#">Projects</a>
             <a href="#">Resumé</a>
-            <a >
-              Contact
-              <div className={styles.contactLinks}>
-                <SocialLinks />
-              </div>
-            </a>
+            <a href="#"> Contact</a>
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import SocialLinks from './SocialLinks';
 
 const onClick = e => {
   prevent;
@@ -16,7 +17,10 @@ const Contact = () => (
       style={{
         margin: `10px 0`,
         display: `flex`,
-        justifyContent: `center`
+        flexDirection: `column`,
+        justifyContent: `center`,
+        alignContent: `center`,
+        flexWrap: `wrap`
       }}
     >
       <a href="mailTo: miller.KeriPatricia@gmail.com">
@@ -33,6 +37,7 @@ const Contact = () => (
           Miller.KeriPatricia@gmail.com
         </button>
       </a>
+        <SocialLinks/>
     </div>
   </div>
 );

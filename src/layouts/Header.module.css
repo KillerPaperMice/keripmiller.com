@@ -30,6 +30,6 @@
   padding-left: 1rem;
 }
 
-.sectionContainer a:last-of-type:hover {
-  background-color: green;
+@media (max-width: 674px) {
+
 }
