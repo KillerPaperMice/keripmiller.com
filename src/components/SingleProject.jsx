@@ -10,7 +10,6 @@ class SingleProject extends Component {
   }
 
   render() {
-    console.log(this.props);
     return (
       <div className={styles.singleProjectContainer}>
         <div className={styles.imgContainer}>

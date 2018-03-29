@@ -7,7 +7,9 @@
   margin: 0 auto;
   padding: 1.45rem 1.0875rem;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
 }
 
 .logo h1 {
@@ -22,6 +24,7 @@
 
 .sectionContainer {
   padding-top: 1.5em;
+  padding-left: 2rem;
   display: flex;
   flex-wrap: nowrap;
 }

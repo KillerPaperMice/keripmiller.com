@@ -5,7 +5,7 @@ import resumePdf from "../utils/assets/Miller-TechResume2018.pdf";
 import styles from "../layouts/Resume.module.css";
 
 const Resume = () => (
-  <div className={styles.resumeContainer}>
+  <div id="resume" className={styles.resumeContainer}>
     <h2>Resumé</h2>
     <div className={styles.resume}>
       <h3 className={styles.resumeHeader}>Technologies</h3>
@@ -108,8 +108,8 @@ const Resume = () => (
           <ul>
             <li>Efficiently processed 100+ vendor invoices weekly</li>
             <li>
-              Obtained proper information and approval regarding invoice payments
-              for tracking purposes
+              Obtained proper information and approval regarding invoice
+              payments for tracking purposes
             </li>
             <li>
               Maintained the vendor database with accurate and current
@@ -155,7 +155,7 @@ const Resume = () => (
       </p>
     </div>
     <a href={resumePdf} target="_blank" className={styles.resumeButton}>
-      <button title='Download Resume'>download PDF</button>
+      <button title="Download Resume">download PDF</button>
     </a>
   </div>
 );

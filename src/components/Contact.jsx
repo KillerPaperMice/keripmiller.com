@@ -1,11 +1,12 @@
 import React from "react";
-import SocialLinks from './SocialLinks';
+import SocialLinks from "./SocialLinks";
 
 const onClick = e => {
   prevent;
 };
 const Contact = () => (
   <div
+    id="contact"
     style={{
       display: `flex`,
       flexDirection: `column`,
@@ -32,12 +33,12 @@ const Contact = () => (
             borderRadius: `.5rem`,
             backgroundColor: `white`
           }}
-          title='E-Mail'
+          title="E-Mail"
         >
           Miller.KeriPatricia@gmail.com
         </button>
       </a>
-        <SocialLinks/>
+      <SocialLinks />
     </div>
   </div>
 );

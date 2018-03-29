@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Sections from "./Sections";
 import styles from "../../layouts/Header.module.css";
 
 class Header extends Component {
@@ -8,17 +9,11 @@ class Header extends Component {
   }
 
   render() {
-    console.log("HELLLLLO", this.state);
     return (
       <div className={styles.headerContainer}>
         <div className={styles.logo}>
           <h1>Keri P. Miller</h1>
-          <div className={styles.sectionContainer}>
-            <a href="#">About</a>
-            <a href="#">Projects</a>
-            <a href="#">Resumé</a>
-            <a href="#"> Contact</a>
-          </div>
+          <Sections />
         </div>
       </div>
     );
