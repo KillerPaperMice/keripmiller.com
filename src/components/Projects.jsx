@@ -8,6 +8,7 @@ import finalMeltImg from "../utils/assets/screenShots/FinalMeltdownLanding.png";
 
 const Projects = () => (
   <div
+    id="projects"
     style={{
       display: `flex`,
       flexDirection: `column`,

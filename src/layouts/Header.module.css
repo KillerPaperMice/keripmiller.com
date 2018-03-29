@@ -1,0 +1,38 @@
+.headerContainer {
+  margin-bottom: 1.45rem;
+  display: block;
+}
+
+.logo {
+  margin: 0 auto;
+  padding: 1.45rem 1.0875rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.logo h1 {
+  margin: 0;
+  color: tomato;
+  text-decoration: none;
+  font-size: 3.5rem;
+  font-weight: normal;
+  font-family: Monoton;
+  word-spacing: 1rem;
+}
+
+.sectionContainer {
+  padding-top: 1.5em;
+  padding-left: 2rem;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.sectionContainer a {
+  padding-left: 1rem;
+}
+
+@media (max-width: 674px) {
+
+}
