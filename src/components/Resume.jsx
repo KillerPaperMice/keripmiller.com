@@ -85,9 +85,8 @@ const Resume = () => (
             <a href="https://whiskapp.herokuapp.com" target="_blank">
               whiskapp.herokuapp.com
             </a>
-            <br />
-            A progressive web app that connects users to local shelter animals
-            in a Tinder like format.
+            <br />A Tinder styled web app that connects users with real shelter
+            pets for adoption using Petfinder’s API.
           </p>
           <ul>
             <li>Led development for Match Logic and Geolocation for app</li>
