@@ -16,7 +16,7 @@ class Header extends Component {
     const contentStyle = {
       background: "rgba(255,255,255,0",
       width: "80%",
-      border: "none"
+      border: "none",
     };
 
     return (
