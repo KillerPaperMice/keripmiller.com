@@ -1,7 +1,7 @@
 import React from "react";
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 import faLink from "@fortawesome/fontawesome-free-solid/faLink";
-import resumePdf from "../utils/assets/Miller-TechResume2018.pdf";
+import resumePdf from "../utils/assets/MillerKeriTechResume.pdf";
 import styles from "../layouts/Resume.module.css";
 
 const Resume = () => (
@@ -12,21 +12,19 @@ const Resume = () => (
       <div className={styles.resumeSection}>
         <p>
           <strong>Strengths:</strong>
-          JavaScript, Express.js, React-Redux, Sequelize, SQL, RESTful APIs,
-          Git, HTML, CSS
+          Javascript, ES2015, Express.js, React-Redux, Sequelize, SQL, RESTful APIs, Git, HTML, CSS, Relational Database
+          Design
           <strong>Knowledgeable:</strong>
-          Node.Js, Promises, jQuery, Bootstrap, Sass, GatsbyJs, Linux, Virtual
-          Machines, Heroku
-          <strong>Some Experience:</strong>
-          Passport, OAuth, P5.js, Mocha, Chai, Python 3, GraphQL
-        </p>
+          Node.Js, Promises, jQuery, Bootstrap, Scss, GatsbyJs, Linux, Virtual Machines, Heroku, Styled Components
+          <strong>Familiar:</strong>
+          Passport, OAuth2, P5.js, Mocha, Chai, Python3, GraphQL, Adobe Creative Suite </p>
       </div>
       <h3 className={styles.resumeHeader}>Projects and Accomplishments</h3>
       <div className={styles.resumeSection}>
         <div className={styles.project}>
           <p>
             <strong>The Final Meltdown</strong>Developer | Jan 2018 - present |
-            <FontAwesomeIcon icon={faLink} />
+            <FontAwesomeIcon icon={faLink}/>
             :
             <a
               href="https://thefinalmeltdown.github.io/theFinalMeltdown"
@@ -34,7 +32,7 @@ const Resume = () => (
             >
               thefinalmeltdown.github.io/theFinalMeltdown
             </a>
-            <br />
+            <br/>
             An open source VR app that uses A-frame to create a symbolic
             representation of the effects of climate change on the planet.
           </p>
@@ -55,7 +53,7 @@ const Resume = () => (
         <div className={styles.project}>
           <p>
             <strong>Sound&&Vision</strong>Solo Developer | Nov 2017 - Present |
-            <FontAwesomeIcon icon={faLink} />
+            <FontAwesomeIcon icon={faLink}/>
             :
             <a
               href="https://github.com/keripmiller/soundandvision"
@@ -63,7 +61,7 @@ const Resume = () => (
             >
               github.com/keripmiller/soundandvision
             </a>
-            <br />An audio chat app that renders drawings as you speak.
+            <br/>An audio chat app that renders drawings as you speak.
           </p>
           <ul>
             <li>
@@ -80,12 +78,12 @@ const Resume = () => (
         <div className={styles.project}>
           <p>
             <strong>Whiskr</strong>Developer | Nov 2017 - Present |
-            <FontAwesomeIcon icon={faLink} />
+            <FontAwesomeIcon icon={faLink}/>
             :
             <a href="https://whiskapp.herokuapp.com" target="_blank">
               whiskapp.herokuapp.com
             </a>
-            <br />A Tinder styled web app that connects users with real shelter
+            <br/>A Tinder styled web app that connects users with real shelter
             pets for adoption using Petfinder’s API.
           </p>
           <ul>
