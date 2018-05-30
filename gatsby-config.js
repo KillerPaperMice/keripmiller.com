@@ -3,6 +3,7 @@ module.exports = {
     title: `Keri Can Code`
   },
   plugins: [
+    `gatsby-plugin-react-next`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,

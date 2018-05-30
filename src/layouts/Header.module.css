@@ -34,5 +34,7 @@
 }
 
 @media (max-width: 674px) {
-
+  .sectionContainer {
+    display: none;
+  }
 }
