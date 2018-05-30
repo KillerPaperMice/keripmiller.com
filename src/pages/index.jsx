@@ -1,13 +1,11 @@
 import React from 'react';
 import {Helmet} from 'react-helmet';
-import Link from 'gatsby-link';
 import favIco from '../utils/favicon.png'
 // components
 import About from '../components/About';
 import Projects from '../components/Projects';
 import Resume from '../components/Resume';
 import Contact from '../components/Contact';
-
 
 const IndexPage = () => (<div>
   <Helmet>
